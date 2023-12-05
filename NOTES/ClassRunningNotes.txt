@@ -25,7 +25,7 @@ DAY-1
 	OS [set of s/w]
 	H/W[CPU, Memory]
 
-2 ways of interaction with OS 
+TWO WAYS TO interacct with OS 
 ===================================	
 GUI : Graphical User Interface  : interacting with UI 
 CLI : Command Line Interface : interacting with commands 
@@ -56,16 +56,16 @@ CLI : Command Line Interface : interacting with commands
 	
 	
 ### TYPES OF PROGRAMMING LANGS
-	- 1920's [Electrical Computer : processor, cap, diodes ]
+	1. 1920's [Electrical Computer : processor, cap, diodes ]
 		- Binary Lang: 0(ground state), 1 (existed state)
 		1010101010101 1010101010
 		
-	- 1940's : Assembly Lang : Symbols : Menmonics [40-50]
+	2. 1940's : Assembly Lang : Symbols : Menmonics [40-50]
 	
 		ADD RX1, RX2
 		COPY RX2, RX2
 	
-	- 1970: Middle Level : COBOL, FORTAN, C [ mother of all langs]
+	3. 1970: Middle Level : COBOL, FORTAN, C [ mother of all langs]
 		- writing instruction in english like language 
 						
 			#include<stdio.io>
@@ -73,7 +73,7 @@ CLI : Command Line Interface : interacting with commands
 				printf("hello world am c");
 			}
 		
-	- 1980: High Level Lang : C++, Java , Python , Javascript
+	4. 1980: High Level Lang : C++, Java , Python , Javascript
 		- writing instruction in english like lang
 		
 
@@ -107,11 +107,17 @@ INSTALLATION
 			1. python --version
 			2. python -V 
 			
-	- PYCHARM 
+	- PYCHARM : IDE [Intergrated Development Env]
+			- code syntax 
+			- debugging / running
+			- in-build terminal 
+			- project structure 
+			- creates virtual env automatically 
+			
 		- website: https://www.jetbrains.com/edu-products/download/#section=pycharm-edu 
 		- install community version 
 	
-	- JUPYTERNOTEBOOK (MINICODA)
+	- JUPYTERNOTEBOOK (MINICODA / ANACONDA)
 		1.it's also tool to run your python code. 
 			- Go to https://docs.conda.io/en/latest/miniconda.html and download the exe.
 			- run the .exe file.
@@ -140,7 +146,9 @@ WORKSPACE SETUP:
 	2. Go to PythonTraining/orgPython
 		- Open GitBash by right click on empty screen
 		- Do the git clone 
-			- git clone  https://github.com/anil-k-rajamoni18/Learn-Python.git
+			- git clone  https://github.com/anil-k-rajamoni18/PythonLearn
+		- after cloning , copy PythonLearn floder from orgPython ---> myPython 
+		
 	3. TO PULL (get the new changes)
 		- Go to this path : PythonTraining/python-org and open Git Bash
 		- type : git status (it should be nothing to comit)
