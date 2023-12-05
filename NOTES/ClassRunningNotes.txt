@@ -1,0 +1,151 @@
+Python  Training
+---------------------------------
+
+INSTRUCTION 
+--------------------
+- Please join from laptop 
+- Every Day pull the code from remote repo 
+- Please do the assignments on time.
+- 6:00 or 6:30AM IST (M-F)
+
+
+DAY-1
+==================
+- Introduction to Programming Languages [ set of grammer or vocab]
+- Hands on CLI(command line interface) tools
+- Installation of Python Interpreter, PyCharm, Jupyter [Anaconda]
+- Difference between Python2 vs Python3
+- print() method  : output method in python 
+
+
+- OS ARCH 
+	USERS 
+	APPLICATION 
+	KERNAL
+	OS [set of s/w]
+	H/W[CPU, Memory]
+
+2 ways of interaction with OS 
+===================================	
+GUI : Graphical User Interface  : interacting with UI 
+CLI : Command Line Interface : interacting with commands 
+	1.windows: powershell, gitbash, command prompt
+			commands:
+				dir : list content of the path or directory 
+				cd : change the path 
+				mkdir: create a new floder or directory
+				rmdir: remove the director or floder 
+				cls: clear the screen 
+				notepad filename.extension : create a file 
+				type filename : display file content
+	2.mac-os: terminal
+		ls : list the files 
+			ls -al 
+			ls -l 
+			ls -rtc
+		cd : change the path 
+		clear : clear the screen 
+		mkdir : create new dir
+		rm : remove dir
+		touch , vi : create new file
+		cat : display the content of a file 
+		cp : copy 
+		mv src des : moves the files 
+		
+	3.linux: terminal 
+	
+	
+### TYPES OF PROGRAMMING LANGS
+	- 1920's [Electrical Computer : processor, cap, diodes ]
+		- Binary Lang: 0(ground state), 1 (existed state)
+		1010101010101 1010101010
+		
+	- 1940's : Assembly Lang : Symbols : Menmonics [40-50]
+	
+		ADD RX1, RX2
+		COPY RX2, RX2
+	
+	- 1970: Middle Level : COBOL, FORTAN, C [ mother of all langs]
+		- writing instruction in english like language 
+						
+			#include<stdio.io>
+			int main() {
+				printf("hello world am c");
+			}
+		
+	- 1980: High Level Lang : C++, Java , Python , Javascript
+		- writing instruction in english like lang
+		
+
+example:
+	print("Hello World") ---Compiler/Interpreter ---> intermediate (.obj, .class, bytecode) ----> machine code--> CPU [ i will understand only 0s,1s]
+	
+		
+
+QUESTIONS
+- difference between interpreter vs compiler 
+- what is bytecode & importance 
+- what is ASCII and UNICODE ?
+
+#################################################
+DAY-2
+##################################################
+
+- Installation of all tools 
+- Workspace setup 
+- Difference between Python2 vs Python3
+- print() method  : output method in python 
+
+
+INSTALLATION
+==========================
+	- PYTHON INTERPRETER
+		- website: https://www.python.org/ 
+		- install latest version 
+		- installation PATH [windows]: C:\Users\<username>\AppData\Local\Programs\Python
+		- verify : open command prompt or terminal type following commands 
+			1. python --version
+			2. python -V 
+			
+	- PYCHARM 
+		- website: https://www.jetbrains.com/edu-products/download/#section=pycharm-edu 
+		- install community version 
+	
+	- JUPYTERNOTEBOOK (MINICODA)
+		1.it's also tool to run your python code. 
+			- Go to https://docs.conda.io/en/latest/miniconda.html and download the exe.
+			- run the .exe file.
+			- Once it is completed : just search , Anaconda prompt is present or not.
+		2. install the jupyter notebook
+			- open Anaconda Prompt 
+			- type : pip install jupyter notebook
+		3. Open JupyterNotebook 
+			- Open the Anaconda Prompt 
+			- cd path 
+			- type : jupyter notebook (--- Jupyter Server in background  | you will get a Jupyter UI in browser.)
+			
+	- GIT BASH
+		- first create github account: https://github.com/signup?source=login
+		- install gitbash: https://git-scm.com/download/win [choose 64bit]
+		- Once it is done, you can verify with 
+			- open CMD : type --> git --version
+			
+	
+WORKSPACE SETUP:
+=================================
+	1. Create main floder with some name ---> PythonTraining.
+			- create two sub-floders
+				->  myPython
+				->  orgPython
+	2. Go to PythonTraining/orgPython
+		- Open GitBash by right click on empty screen
+		- Do the git clone 
+			- git clone  https://github.com/anil-k-rajamoni18/Learn-Python.git
+	3. TO PULL (get the new changes)
+		- Go to this path : PythonTraining/python-org and open Git Bash
+		- type : git status (it should be nothing to comit)
+		- type: git pull ( it will fetch all changes into the local system)
+			
+		
+		
+		
