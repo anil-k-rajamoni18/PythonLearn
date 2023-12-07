@@ -83,8 +83,8 @@ example:
 		
 
 QUESTIONS
-- difference between interpreter vs compiler 
-- what is bytecode & importance 
+- difference between interpreter[java,python,js] vs compiler [c, cpp,java]
+- what is bytecode & importance.
 - what is ASCII and UNICODE ?
 
 #################################################
@@ -101,8 +101,9 @@ INSTALLATION
 ==========================
 	- PYTHON INTERPRETER
 		- website: https://www.python.org/ 
-		- install latest version 
+		- install latest version : 3.12.0
 		- installation PATH [windows]: C:\Users\<username>\AppData\Local\Programs\Python
+		- mac-os: /usr/bin/python 
 		- verify : open command prompt or terminal type following commands 
 			1. python --version
 			2. python -V 
@@ -156,4 +157,21 @@ WORKSPACE SETUP:
 			
 		
 		
-		
+### DAY3 ##
+- Python Intro
+- - running python code using terminal, IDEL, IDE, jupyter notebook.
+- Difference between Python2 vs Python3
+- chr(num) -- letter , ord(char) --> number 
+- print() method  : output method in python 
+- variable & comments 
+
+
+num = 10
+num2 = 10.5
+name = "venkat@12"  --> 118 101 110 107 97 116 64 49 50 --> 1010 10010 1001 1010
+
+QUESTION:
+- how to know the python interpreter location using python code?
+- difference between static[c,c++] lang vs dynamic lang[python, js] ?
+ 
+
