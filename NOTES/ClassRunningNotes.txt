@@ -172,6 +172,41 @@ name = "venkat@12"  --> 118 101 110 107 97 116 64 49 50 --> 1010 10010 1001 1010
 
 QUESTION:
 - how to know the python interpreter location using python code?
-- difference between static[c,c++] lang vs dynamic lang[python, js] ?
+- difference between static[c,c++,javascript] lang vs dynamic lang[python, js] ?
+
+
  
 
+
+		
+### DAY4 ##
+- print() method  : in details
+- variable & comments 
+- data types
+
+
+JAVA  : 
+syntax:
+	datatype variablename = value;
+============
+String name = "kumar";
+String lang = "python";
+double rating = 3.5
+		
+		
+PYTHON : 
+	syntax: 
+	variablename =  value;
+============
+name = 'kumar'
+lang = 'python'
+rating = 3.5 
+
+
+TOPIC:
+ theory : 10mins
+ practise : 3x times
+ 
+ 
+ 
+ 
