@@ -151,9 +151,10 @@ WORKSPACE SETUP:
 		- after cloning , copy PythonLearn floder from orgPython ---> myPython 
 		
 	3. TO PULL (get the new changes)
-		- Go to this path : PythonTraining/python-org and open Git Bash
+		- Go to this path : PythonTraining/orgPython/PythonLearn and open Git Bash
 		- type : git status (it should be nothing to comit)
 		- type: git pull ( it will fetch all changes into the local system)
+		- after git pull is completed copy the PythonLearn from orgPython -- myPython
 			
 		
 		
