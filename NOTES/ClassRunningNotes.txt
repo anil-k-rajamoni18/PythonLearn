@@ -204,10 +204,52 @@ lang = 'python'
 rating = 3.5 
 
 
-TOPIC:
- theory : 10mins
- practise : 3x times
- 
- 
+### DAY5 ##
+- print() method attributes with examples 
+- input() method 
+- type casting 
+
+
+
+## DAY 6 ###
+- type casting with example 
+- primitive data types overview
+- collectional data types 
+
+
+## DAY 7###
+- prebuild methods:
+	- help() : shows documentation
+	- dir() : displays all methods & attributes of a data type 
+	- len(): displays no. of elements
+	- chr() 
+	- ord() 
+	- bin() oct() hex() 
+	
+- List Overview 
+- Methods 
+	- insertion
+		 append(obj) 
+		 insert(index,obj)
+		 extend([obj1,obj2..])
+	- deletion
+		pop(index=-1)
+		remove(value)
+	- popular 
+		reverse()
+		copy()
+		clear()
+		sort(reverse=False)
+		count()
+		index()
+
+## DAY 8 ## 
+- Tuple 
+- Set 
+- Dictionary 
+
+
+	
+	
  
  

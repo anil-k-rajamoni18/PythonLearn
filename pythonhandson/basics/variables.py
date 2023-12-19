@@ -11,7 +11,7 @@ Python Variable Name Rules
 2.A variable name cannot start with a number[0-9]
 3.A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 4.Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
-5.A variable cannot have same name as Reserved word or KEYWORD.
+5.A variable cannot have same name as Reserved word or KEYWORD. [35]
 
 """
 
@@ -101,3 +101,5 @@ student_marks = 87
 number_of_students_in_college = 400
 
 print(student_marks, student_marks, number_of_students_in_college)
+
+
