@@ -32,7 +32,7 @@ print(planets[2])
 print(planets.count('Earth'))
 print(planets.count('Pluto'))
 
-# index()
+# 2. index()
 print(planets.index('Mars'))
 # print(planets.index('venus')) # throws ValueError, if value doesn't exists
 

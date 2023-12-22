@@ -219,6 +219,8 @@ rating = 3.5
 
 ## DAY 7###
 - prebuild methods:
+	- type() : display data type of a variable 
+	- id() : display memory address
 	- help() : shows documentation
 	- dir() : displays all methods & attributes of a data type 
 	- len(): displays no. of elements
@@ -243,9 +245,19 @@ rating = 3.5
 		count()
 		index()
 
+# shallow copy vs deep copy vs reference copy 
+
+
 ## DAY 8 ## 
 - Tuple 
+	methods:
+		- count() 
+		- index()
 - Set 
+	methods:
+		- 
+
+## DAY 9 ## 
 - Dictionary 
 
 

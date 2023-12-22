@@ -69,3 +69,14 @@ print(id(dup_set), id(colors))
 set_a.clear()
 print(set_a)
 
+
+#  common use cases
+numbers = [10,20,10,30,40,20] # list
+print(numbers)
+
+# list to set
+numbers_set = set(numbers)
+print(numbers_set, type(numbers_set))
+
+
+
