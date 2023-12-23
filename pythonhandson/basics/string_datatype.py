@@ -284,7 +284,7 @@ syntax:
     
 positive
 - start : 0 (default)
-- stop : LEN-1
+- stop : LEN
 - step : 1 
 
 negative:
@@ -316,7 +316,7 @@ print(challenge[0:5]) # [0:5:1]
 
 print(challenge[:3]) # [0:3:1]
 
-print(challenge[2:]) # [2: LEN-1: 1]
+print(challenge[2:]) # [2: LEN: 1]
 
 
 # Negative Indexing
@@ -331,7 +331,6 @@ print(var[2::-1])
 print(challenge[-1:-6:1])
 
 
-# "Chennai Super Kings"
 
 name = "MumbaiIndians"
 
@@ -342,7 +341,7 @@ print(name[0:4:1])
 print(name[:6]) # [0:6:1]
 print(name[2:]) #[2:LEN:1]
 print(name[-1:-5:-2])
-print(name[::2]) #[0:LEN-1:2]
-print(name[-1 : -len(name)-1 : -1]) #[-1: -LEN-1: -1]
-print(name[::-1])  #[-1: -LEN-1: -1] # reverse order
-print(name[::]) #[0: LEN-1: 1]
+print(name[::2]) #[0:LEN:2]
+print(name[-1 : -len(name)-1 : -1]) #[-1: -LEN: -1]
+print(name[::-1])  #[-1: -LEN: -1] # reverse order
+print(name[::]) #[0: LEN: 1]
