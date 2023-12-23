@@ -6,7 +6,7 @@ STRING
 
 - Strings have indexing
 
-    +ve : 0 - N-1
+    +ve : 0 -> N-1
 
     -ve : -1 --> -N
 - String supports slicing also.
@@ -48,7 +48,7 @@ checking methods:
     islower()
     isupper()
 
-covertion methods
+conversation methods
 ------------------------
     split() : str --> list
     join() : list --> str
@@ -252,9 +252,97 @@ print("->".join(list_words))
 1. read list of integers from keyword 
 2. calculate sum & average 
 
-
 Input:
     10 20 30 
     sum: 60 
-    average: 20
+    average: 2
 '''
+
+
+# String Indexing
+print('*************** Indexing ****************')
+
+challenge = 'Java is Robust'
+print(len(challenge))
+
+# Positive Indexing
+print(challenge[0])
+print(challenge[3])
+print(challenge[8])
+# print(challenge[20])
+
+# Negative Indexing
+print(challenge[-1])
+print(challenge[-4])
+print(challenge[ -len(challenge)])
+
+# SLICING [start:stop:step]
+'''
+- Extracting specific data.
+syntax:
+    [start:stop:step]
+    
+positive
+- start : 0 (default)
+- stop : LEN-1
+- step : 1 
+
+negative:
+ -start : -1 (default)
+- stop : -(LEN)
+- step : - 1 
+
+
+note: STOP is exclusive not included
+
+- > next index = current + step 
+-> current index < stop 
+'''
+
+print('*************** slicing *************')
+challenge = 'CurrentVersionOfPythonIs3.12'
+print(len(challenge))
+
+print(challenge[0:4:1]) # Curr
+print(challenge[2:10:2])
+print(challenge[0:28:5])
+
+challenge = "HelloWorld"
+print(len(challenge))
+print(challenge[0:6:3])
+print(challenge[0:10:2])
+
+print(challenge[0:5]) # [0:5:1]
+
+print(challenge[:3]) # [0:3:1]
+
+print(challenge[2:]) # [2: LEN-1: 1]
+
+
+# Negative Indexing
+challenge = "HiPython"
+print(len(challenge))
+print(challenge[-1: -5:-1])
+print(challenge[-5:-10:-2])
+
+var= "James Bond"
+print(var[2::-1])
+
+print(challenge[-1:-6:1])
+
+
+# "Chennai Super Kings"
+
+name = "MumbaiIndians"
+
+print(len(name))
+print(name[0])
+print(name[-1])
+print(name[0:4:1])
+print(name[:6]) # [0:6:1]
+print(name[2:]) #[2:LEN:1]
+print(name[-1:-5:-2])
+print(name[::2]) #[0:LEN-1:2]
+print(name[-1 : -len(name)-1 : -1]) #[-1: -LEN-1: -1]
+print(name[::-1])  #[-1: -LEN-1: -1] # reverse order
+print(name[::]) #[0: LEN-1: 1]
