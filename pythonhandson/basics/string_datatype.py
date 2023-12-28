@@ -330,9 +330,7 @@ print(var[2::-1])
 
 print(challenge[-1:-6:1])
 
-
-
-name = "MumbaiIndians"
+me = "MumbaiIndians"
 
 print(len(name))
 print(name[0])
@@ -345,3 +343,5 @@ print(name[::2]) #[0:LEN:2]
 print(name[-1 : -len(name)-1 : -1]) #[-1: -LEN: -1]
 print(name[::-1])  #[-1: -LEN: -1] # reverse order
 print(name[::]) #[0: LEN: 1]
+
+na
