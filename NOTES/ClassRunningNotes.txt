@@ -260,6 +260,41 @@ rating = 3.5
 ## DAY 9 ## 
 - Dictionary 
 
+## DAY 10 ##
+- String & methods 
+
+regular methods:
+------------------------
+    capitalize()
+    count()
+    endswith()
+    startswith()
+    expandtabs()
+    find()
+    rfind()
+    index()
+    rindex()
+    title()
+    replace()
+    upper()
+    lower()
+
+checking methods:
+----------------------
+    isalnum()
+    isalpha()
+    isdecimal()
+    isdigit()
+    isnumeric()
+    isidentifier()
+    islower()
+    isupper()
+
+covertion methods
+------------------------
+    split() : str --> list
+    join() : list --> str
+
 
 	
 	

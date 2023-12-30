@@ -101,12 +101,110 @@ print(10 != 4)
 print(10 != 10)
 print('a' == 'A')  # 97 == 65
 print('K' > 'a')  # 75 > 97
-print('Hi' > 'Hello') # 72 == 72, 105 > 101
+print('Hi' > 'Hello')  # 72 == 72, 105 > 101
 print('Bye' > 'bye')
 print('Bye' == 'bye')
 print('Hello' == 'HellO')
 print('Hello' > 'HeLlo')
 
+# MemberShip Operator
+'''
+    in: Returns True if the queried sequence contains a certain item(x in y)
+    not in: Returns True if the queried list doesn't have a certain item(x not in y)
+'''
+
+print('************* MemberShip Operator ***************')
+colors = {'red', 'blue', 'yellow', 'orange'}
+
+print('red' in colors)
+print('skyblue' in colors)
+print('RED' in colors)
+print('yellow' not in colors)
+print('black' not in colors)
+
+print('A in Asabeneh', 'A' in 'Asabeneh')  # True - A found in the string
+print('B in Asabeneh', 'B' in 'Asabeneh')  # False - there is no uppercase B
+print('coding' in 'coding for all')  # True - because coding for all has the word coding
+print('a in an:', 'a' in 'an')  # True
+
+# dictionary with in operators
+person = {'name': 'venkat', 'course': 'devops', 'duration': 4}
+print('venkat' in person)
+print('course' in person)
+print('devops' in person.values())
+
+# Identity Operator
+print('************ Identity Operator **************')
+'''
+is: Returns true if both variables are the same object(x is y)
+is not: Returns true if both variables are not the same object(x is not y)
+'''
+a = 10  # primitive [int, float, boolean,complex, None]
+b = 10
+print(a is b)
+print("int", id(a), id(b))
+
+x = 10.5
+y = 10.5
+z = 10.5
+print(x is y)
+print(y is z)
+print("float", id(x), id(y), id(z))
+
+b1 = True
+b2 = True
+print(b1 is b2)
+print("boolean", id(b1), id(b2))
+
+c1 = 1 + 2j
+c2 = 1 + 2j
+print(c1 is c2)
+print("complex ", id(c1), id(c2))
+
+n1 = None
+n2 = None
+print(n1 is n2)
+print("None", id(n1), id(n2))
+
+s1 = "hello"
+s2 = "hello"
+print(s1 is s2)
+print("string", id(s1), id(s2))
+
+lst1 = [10, 20, 30]  # collection/sequence
+lst2 = [10, 20, 30]
+print(lst1 is lst2)  # address is comparing
+print(lst1 is not lst2)
+print(lst1 == lst2)  # comparing content
+print("collections", id(lst1), id(lst2))
+
+# LOGICAL OPERATORS
+print('********* logical operators *************')
+
+username = "fury"
+passwd = 1234
+print(username == ['fury'] and passwd == 1234)  # both
+print(username == "fur" or passwd == 1234)  # atleast
+print(not (username == "fury" and passwd == 1234))
+print(username == "fury" and passwd == 1234)
+
+# login
+database = {"username": "kumar", "passwd": "kumar123"}
+
+username = input("Enter the username: ")
+passwd = input("Enter the password: ")
+
+if username == database['username']:
+    if passwd == database['passwd']:
+        print('Login Success :) ')
+    else:
+        print(f'password {passwd} is not valid')
+else:
+    print(f'invalid username : {username}')
 
 
+if username == database['username'] and passwd == database['passwd']:
+    print('login success')
+else:
+    print('invalid credentials.')
 
