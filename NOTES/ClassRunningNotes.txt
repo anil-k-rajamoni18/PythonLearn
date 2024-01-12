@@ -299,4 +299,39 @@ covertion methods
 	
 	
  
- 
+# Conditional statements  #########
+- if 
+- if else
+- if elif elif elif ... else 
+- if if if if ... else [multiple if's]
+- short hand if else 
+- nested if else 
+
+OBSERVATION:
+	- if condition expresssions are evaluated by bool() method 
+		bool(nothing or len is zero) --> always False 
+		bool(something or len > 0) ---> always True 
+		
+	- Identation is always important when writing blocks
+		- Four spaces from beginning of the line 
+		
+	- In conditional expression we can use any operators which evaluates to Either True or False.
+	
+
+### LOOPING STATEMENTS ##########
+	- prereq : 
+		- range() method
+		- all collectional/sequence datatypes
+
+	- range(start,stop,step) : to generate interger sequence
+		default values
+			start : 0
+			stop: LEN
+			step: 1
+		 stop is always exclusive/excluded 
+		 range() method gives range type as output, typecast to list, tuple to display the output
+		 
+
+1. In range of (1 - 100) , print only multiples  of 3
+2. In range of (1 - 100) , print only multiples of 5
+3. In range of (1 - 100) , print only multiples 3 & 5

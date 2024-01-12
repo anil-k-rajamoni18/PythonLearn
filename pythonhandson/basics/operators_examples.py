@@ -21,7 +21,7 @@ price = price - 5
 print(price)
 
 # increase price by 10 using compound assignment
-price += 10
+price += 10 # price = price + 10
 print(price)
 
 # decrease price by 3  using compound assignment
