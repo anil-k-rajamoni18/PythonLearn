@@ -35,7 +35,7 @@ print(list_data)
 # example-3 : change only even index locations with "even" data
 for i in range(0, len(list_data), 1):
     if i % 2 == 0:
-        list_data[i] = "even"
+        list_data[i] = "even" # updating the index data
 
 print(list_data)
 print('******************************')
@@ -63,3 +63,15 @@ for i in range(len(comp)):
         comp[i] = inp_dt
 
 print(comp)
+
+print('********************************************')
+
+# example-6, print index no if key presents inside list, otherwise print -1 : [Linear Search ]
+nums = [10,1,3,6,77,99,22,6,30,96]
+key = int(input('enter key: '))
+data_loc = -1
+for i in range(0, len(nums),1):
+    if nums[i] == key:
+        data_loc = i
+
+print(data_loc)
