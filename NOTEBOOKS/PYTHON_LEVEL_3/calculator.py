@@ -1,33 +1,11 @@
-def add():
-    ''' addition of two numbers , this function is written by User'''
-    n1 = int(input("Enter Num1= "))
-    n2 = int(input("Enter Num2 = "))
-    return n1+n2
+def addition(num1: int, num2: int) -> int:
+    res = num1 + num2 
+    return f'addition of {num1} + {num2} = {res}'
 
-def sub():
-    ''' Subtraction of two numbers'''
-    n1 = int(input("Enter Num1= "))
-    n2 = int(input("Enter Num2= "))
-    return n1-n2
+def difference(num1: int, num2: int) -> int:
+    res = num1 - num2 
+    return f'difference of {num1} - {num2} = {res}'
 
-def mult():
-    ''' multiplication of two numbers by vemuri'''
-    n1 = int(input("Enter Num1= "))
-    n2 = int(input("Enter Num2= "))
-    return n1*n2
-
-def div():
-    ''' Division of two numbers'''
-    n1 = int(input("Enter Num1= "))
-    n2 = int(input("Enter Num2= "))
-    return n1/n2
-
-def modulus():
-    n1 = int(input("Enter Num1= "))
-    n2 = int(input("Enter Num2= "))
-    return n1%n2
-
-def exp():
-    n1 = int(input("Enter Num1= "))
-    n2 = int(input("Enter Num2= "))
-    return n1**n2
+def modulus(num1: int, num2: int) -> int:
+    res = num1 % num2 
+    return f'modulus of {num1} % {num2} = {res}'

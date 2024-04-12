@@ -1,2 +1,2 @@
-java is strongly typed lang
-python is weekly typed lang
+c++ is strongly typed lang
+javascript is weekly typed lang
