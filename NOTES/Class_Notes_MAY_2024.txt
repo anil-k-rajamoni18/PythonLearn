@@ -1,0 +1,82 @@
+FUNDAMENTALS 
+======================
+- Computer Architecture
+	Software 
+	Hardware 
+
+		Users
+	-------------------
+		Applications
+	----------------
+		OS 
+	---------------
+		Kernel (core part of os)
+	----------------
+		Hardware
+		
+ 2 ways to interact with OS 
+ ================================
+ GUI : Graphical user interface ( interacing with screen , navigation)
+ CLI : Command Line Interface (interacting with commands)
+ 
+ Windows - Command Prompt, Powershell 
+ Mac-os - Terminal
+ Linux - Shell , bash 
+ 
+ COMMANDS 
+ ------------------
+ WINDOWS 
+	 dir 							- display the current path 
+	 cd dirName/foldername/path 	- to change the path 
+	 mkdir dirName 					- to create new dir or folder
+	 rmdir dirName 					- to remove the dir or folder
+	 cd .. 							- backward path change 
+	 notepad filename.extension 	- creates new file 
+	 type filename 					- display the content of the file
+	 
+ MAC-OS 
+ ------------
+	ls , ls -a , ls -ltr 			- display the list contents
+	pwd								- display current curren path 
+	cd 	dirName						- change the path
+	mkdir dirName 					- create a new floder/dir
+	rmdir dirName 					- delete existing empty dir/floder
+	rm -R dir/floder 				- delete existing non empty dir/floder
+	touch filename.ext 				- creates new file.
+	cat filename					- display the content of the file.
+	open filename 					- opens the file 
+	
+	python3 --version 
+	python3 -V
+	python --version 
+	python -V
+	
+	
+	
+	
+	
+ 
+TO CHECK LOCAL INTERPRETER 
+-----------------------------
+	WIN_OS 
+	-----------------
+	python --version
+	python -V
+
+	MAC OS / LINUX 
+	-------------------
+	python3 --version
+	python3 --version
+	
+HOW TO RUN PYTHON FILES 
+=======================================
+	python filename 
+	
+	
+ASSIGNMENT
+===============
+- Compiler vs interperter? 
+- What is bytecode?
+- What is ASCII & UNICODE, how string/alphabets stores in programming lang?
+- what is git & github?
+
