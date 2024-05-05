@@ -1,7 +1,7 @@
-print(print('hi Chat GPT'))
+# print(print('hi Chat GPT'))
 
-var = print('hi Azure AI')
-print(var)
+# var = print('hi Azure AI')
+# print(var)
 
 
 # Create program called Split Bill Calculcator 
@@ -17,3 +17,12 @@ total_bill = bill_amount + (bill_amount * 1/tip_amount)
 each_person = total_bill / no_of_persons
 
 '''
+
+countries = ['India', "pak"] 
+result = countries.append('Canada')
+print(result)
+print(countries)
+countries.pop()
+
+lst = "RCB MI CSK RR KKR GT PB DC".split() #str - list
+print(lst)
