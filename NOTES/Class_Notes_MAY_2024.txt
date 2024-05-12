@@ -48,6 +48,7 @@ FUNDAMENTALS
 	
 	python3 --version 
 	python3 -V
+	
 	python --version 
 	python -V
 	
@@ -105,4 +106,54 @@ DATA TYPES
 ---------------
 	primitive data types : interger, float, string, complex, boolean, None 
 	collectional data types: List, Tuple, Set, Dictionary
+	
+	
+#QUESTIONS####
+
+Variables and Data Types:
+
+	Declare a variable using a name that starts with an underscore _, followed by a digit, and then a letter. Print the variable.
+	
+	Declare a variable num and assign it an integer value.
+    Reassign num to a string value.
+    Print out the final value of num.
+	
+	Declare three variables a, b, and c and assign them values in a single line.
+    Swap the values of a and b without using a temporary variable.
+
+    Declare a variable age and assign it the value 25.
+    Create a variable name and assign it your name as a string.
+    Print out both variables.
+	
+	Declare a variable called temperature and assign it the value 25.5.
+    Print out the value of the variable.
+	
+	Convert the temperature variable to an integer and print out the result.
+	Write a program that checks the type of the temperature variable and prints out the result.
+  
+	
+	
+	Declare a variable name and assign it your first name.
+    Declare another variable age and assign it your age as an integer.
+    Print out a message that says "My name is [name] and I am [age] years old."
+	
+	Declare a boolean variable is_raining and assign it True.
+    Print out a message depending on the value of is_raining, such as "It's raining today" if is_raining is True and "It's not raining today" if is_raining is False.
+	
+	
+	Declare a variable to_delete and assign it a value.
+    Delete the variable using the del keyword.
+    Try printing the variable after deletion and observe the result.
+	
+	
+	 Declare two variables first_name and last_name and assign them your first and last names, respectively.
+    Concatenate the variables to form your full name and print it out.
+	
+	
+	Declare a constant variable PI and assign it the value 3.14159.
+    Attempt to reassign a new value to PI and observe the result.
+	
+	
+	Declare a variable age and annotate it as an integer.
+    Print out the annotation type of the variable.
 	
