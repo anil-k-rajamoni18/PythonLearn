@@ -1,28 +1,13 @@
-# print(print('hi Chat GPT'))
+age = int(input("Enter your Age: "))
+name = input("Enter your name: ") 
+fav = input("enter your favrouite thing: ")
 
-# var = print('hi Azure AI')
-# print(var)
+print("your passwords are:")
+print()
+print(age, name, fav)
 
+print(age, name, fav, sep = " -> ")
 
-# Create program called Split Bill Calculcator 
-# Read the bill amount and no of people and tip amount
-# display the split amount for each person
+print(age, name, fav, sep = '')
 
-'''
-ex:
-bill_amount : 1000
-no_of_persons: 2
-tip_amount: 10%
-total_bill = bill_amount + (bill_amount * 1/tip_amount)
-each_person = total_bill / no_of_persons
-
-'''
-
-countries = ['India', "pak"] 
-result = countries.append('Canada')
-print(result)
-print(countries)
-countries.pop()
-
-lst = "RCB MI CSK RR KKR GT PB DC".split() #str - list
-print(lst)
+print(age, name, fav, sep = '\n')
