@@ -3,9 +3,9 @@ print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
 
 attributes
     - value
-    - sep = ' '
+    - sep = ' ' # when printing more than one value/variable in a single print method
     - end = '\n' # new line
-    - file = sys.stdout [monitor]
+    - file = sys.stdout (monitor)
     - flush = False
 
 """
@@ -31,20 +31,22 @@ print(gpa)
 # print multiple variable in a single print() method
 print(name, college_name, gpa)  # sep = ' ' is the default separator when having multiple values
 
-# overriding separator value sep = ','
+# # overriding separator value sep = ','
 print(name, college_name, gpa, sep='--->')
+print(name, college_name, gpa, sep='@')
 
-# end = '\n' --> new line , \t --> tab space
+#
+# # end = '\n' --> new line , \t --> tab space
 world_cup_winner = 'Aus'
 world_cup_runner = 'India'
 print(world_cup_winner)
-print() # end = '\n'
+print()
 print()
 print()
 print(world_cup_runner)
 
-#  file = sys.stdout --> mointor
-print("Hello World Learning print methon in details", file=open('file_op.txt', mode='a'))
-print("India lost the 2023 ICC world cup", file=open('file_op.txt', mode='a'))
+# #  file = sys.stdout --> monitor
+print("Hello World Learning print method in details", file = open('result.txt', mode='a'))
+print("India lost the 2023 ICC world cup",  file = open('result.txt', mode='a'))
 
 
