@@ -1,0 +1,19 @@
+JUNE14th
+#############################
+print()
+------------
+1.What does the print() function do in Python?
+2.How do you print a string in Python?
+3.Can you print multiple items with a single print() function call?
+4.How do you print variables along with strings?
+5.How can you control the separator between printed items?
+6.How do you print 3 variables without a newline at the end?
+
+variables
+---------------
+1.How do you create a variable in Python?
+2.What are the rules for naming variables in Python?
+3.How do you assign a value to a variable?
+4.Can a variable change types in Python? Provide an example.
+5.How do you swap the values of two variables in Python?
+6.What happens if you use a variable that hasn't been defined?
