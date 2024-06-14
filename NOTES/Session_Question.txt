@@ -1,5 +1,11 @@
 JUNE14th
 #############################
+
+What is ASCII and UNICODE?
+What is ByteCode ?
+What is Type Casting ?
+
+
 print()
 ------------
 1.What does the print() function do in Python?
