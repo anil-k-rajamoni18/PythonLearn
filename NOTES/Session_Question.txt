@@ -23,3 +23,156 @@ variables
 4.Can a variable change types in Python? Provide an example.
 5.How do you swap the values of two variables in Python?
 6.What happens if you use a variable that hasn't been defined?
+
+
+
+QUESTIONS ON COLLECTIONAL DATATYPES
+------------------------------------------
+LIST
+==========================================
+Grocery List:
+
+    Create a list of grocery items you need to buy: ['milk', 'eggs', 'bread', 'butter'].
+    Add 'sugar' to the list.
+    Remove 'bread' from the list.
+    Print the first item in the list.
+    Print all items from the second item onward.
+    Find out the number of items in your grocery list.
+	
+Daily Temperatures:
+
+    Create a list of daily temperatures for a week: [68, 70, 75, 72, 68, 71, 69].
+    Calculate the average temperature for the week.
+    Find the highest and lowest temperatures of the week.
+	
+Classroom Management:
+    Create a list of students in a class: ['John', 'Jane', 'Joe', 'Mary'].
+    Create a set of students who submitted their homework: {'Jane', 'Joe', 'Mary'}.
+    Create a dictionary with students' names and their attendance count: {'John': 3, 'Jane': 4, 'Joe': 2, 'Mary': 5}.
+    Find out which students did not submit their homework.
+    Increment the attendance count for 'Joe' by 1.
+	
+TUPLE
+==========================================
+
+    Coordinates:
+        Create a tuple representing the coordinates of a point (10, 20).
+        Access the x-coordinate and y-coordinate.
+        Try changing the x-coordinate to 15 (and note what happens).
+
+    Immutable Settings:
+        Create a tuple with configuration settings for a software: ('fullscreen', '1080p', '60Hz').
+        Attempt to modify one of the settings and observe the result.
+		
+SET
+==========================================
+Unique Words:
+
+    Create a set of unique words from a sentence: "hello world hello everyone".
+    Add a new word 'Python' to the set.
+    Remove the word 'hello' from the set.
+    Check if 'world' is in the set.
+    Find the union of two sets of words: {'apple', 'banana', 'cherry'} and {'banana', 'kiwi', 'orange'}.
+
+Attendance List:
+
+    Create a set of students who attended a class on Monday: {'John', 'Jane', 'Joe'}.
+    Create a set of students who attended a class on Tuesday: {'Jane', 'Mary', 'Joe'}.
+    Find the students who attended both classes.
+    Find the students who attended only on Monday.
+    Find the students who attended only on Tuesday.
+
+	
+DICTIONARY
+==========================================
+Phone Book:
+
+    Create a dictionary with names as keys and phone numbers as values: {'John': '555-1234', 'Jane': '555-5678', 'Joe': '555-8765'}.
+    Add a new contact 'Mary' with phone number '555-4321'.
+    Remove 'John' from the phone book.
+    Update 'Jane's phone number to '555-0000'.
+    Print all the contacts (names and phone numbers).
+
+Student Grades:
+
+    Create a dictionary with student names as keys and their grades as values: {'John': 'A', 'Jane': 'B', 'Joe': 'C'}.
+    Add a new student 'Mary' with grade 'B'.
+    Change 'Joe's grade to 'B+'.
+    Print the grade of 'Jane'.
+    Print all students who have a grade 'B'.
+	
+Library System:
+    Create a dictionary where keys are book titles and values are tuples with author and number of copies available
+	Add a new book 'Brave New World' by 'Aldous Huxley' with 5 copies.
+	Update the number of copies of '1984' to 5.
+	Remove 'The Great Gatsby' from the library.
+	List all books available in the library.
+	
+	
+
+STRING
+==========================================
+Basic Operations:
+
+    Create a string variable with the value "Hello, World!".
+    Print the length of the string.
+    Convert the entire string to uppercase.
+    Convert the entire string to lowercase.
+    Replace "World" with "Python" in the string.
+    Find the index of the comma in the string.
+    Extract the substring "Hello" from the string.
+    Check if the string starts with "Hello" and ends with "!".
+
+User Input:
+    Ask the user to input their full name.
+    Print a greeting message that includes their name.
+    Extract and print the first and last name separately.
+    Count how many times the letter 'a' appears in their name.
+    Check if their name contains the substring "Smith".
+	
+Formatting Strings:
+
+    Create variables name and age with values "Alice" and 30 respectively.
+    Use an f-string to print the message: "Hello, my name is Alice and I am 30 years old."
+    Format the same message using the format() method.
+    Format the same message using string concatenation.
+	
+Sentence Analysis:
+    Create a string variable with the value "The quick brown fox jumps over the lazy dog.".
+    Split the sentence into a list of words.
+    Find the number of words in the sentence.
+    Count the occurrences of the letter 'o' in the sentence.
+    Identify the longest word in the sentence.
+    Reverse the entire sentence.
+	
+Palindrome Check:
+    Ask the user to input a word.
+    Check if the word is a palindrome (reads the same forwards and backwards).
+    Print an appropriate message indicating whether it is a palindrome or not.
+	
+CSV Parsing:
+    Create a string representing a CSV line: "John, Doe, 30, john.doe@example.com".
+    Split the string into a list of fields.
+    Extract and print the first name, last name, age, and email separately.
+    Join the list back into a single string with a semicolon ; as the separator.
+	
+URL Manipulation:
+    Create a string with the value "https://www.example.com/path/to/page?name=John&age=30".
+    Extract and print the domain name (i.e., www.example.com).
+    Extract and print the path (i.e., /path/to/page).
+    Extract and print the query string (i.e., name=John&age=30).
+    Parse the query string into a dictionary.
+	
+Password Validation:
+    Ask the user to input a password.
+    Check if the password length is at least 8 characters.
+    Check if the password contains both uppercase and lowercase letters.
+    Check if the password contains at least one digit.
+    Check if the password contains at least one special character (e.g., !, @, #, $).
+    Print appropriate messages for each validation check.
+	
+Data Extraction from Logs:
+    Create a string that represents a log entry: "2024-06-16 12:34:56,789 - ERROR - Invalid user input".
+    Extract and print the date and time.
+    Extract and print the log level (e.g., ERROR).
+    Extract and print the log message (e.g., Invalid user input).
