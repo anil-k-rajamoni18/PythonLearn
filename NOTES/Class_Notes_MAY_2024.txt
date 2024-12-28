@@ -34,7 +34,7 @@ FUNDAMENTALS
 	 notepad filename.extension 	- creates new file 
 	 type filename 					- display the content of the file
 	 
- MAC-OS 
+ MAC-OS | LINUX 
  ------------
 	ls , ls -a , ls -ltr 			- display the list contents
 	pwd								- display current curren path 
@@ -46,11 +46,15 @@ FUNDAMENTALS
 	cat filename					- display the content of the file.
 	open filename 					- opens the file 
 	
+	
+	
 	python3 --version 
 	python3 -V
 	
 	python --version 
 	python -V
+	
+	java -version
 	
 	
 	
@@ -93,7 +97,7 @@ id() - display memory address of a variable
 len() - display size of collectional data type/ no of elements 
 dir() - display the directory content of a variable/object [ attributes , methods]
 help() - display the documentation of a class 
-ord(char) - display the ascii mapped decimal no
+ord(char) - display the ascii mapped decimal num.
 chr(num) - display the mapped character
 
 TYPE CASTING 
@@ -112,23 +116,24 @@ DATA TYPES
 
 Variables and Data Types:
 
-	Declare a variable using a name that starts with an underscore _, followed by a digit, and then a letter. Print the variable.
+Q1	Declare a variable using a name that starts with an underscore _, followed by a digit, and then a letter. Print the variable.
 	
-	Declare a variable num and assign it an integer value.
+Q2	Declare a variable num and assign it an integer value.
     Reassign num to a string value.
     Print out the final value of num.
 	
-	Declare three variables a, b, and c and assign them values in a single line.
+Q3	Declare three variables a, b, and c and assign them values in a single line.
     Swap the values of a and b without using a temporary variable.
 
-    Declare a variable age and assign it the value 25.
+Q4  Declare a variable age and assign it the value 25.
     Create a variable name and assign it your name as a string.
     Print out both variables.
 	
-	Declare a variable called temperature and assign it the value 25.5.
+Q5	Declare a variable called temperature and assign it the value '25.5'.
     Print out the value of the variable.
+	And checks the type of the temperature variable and prints out the result.
 	
-	Convert the temperature variable to an integer and print out the result.
+Q6 Convert the temperature variable to an integer and print out the result.
 	Write a program that checks the type of the temperature variable and prints out the result.
   
 	
@@ -157,3 +162,5 @@ Variables and Data Types:
 	Declare a variable age and annotate it as an integer.
     Print out the annotation type of the variable.
 	
+	
+## LIST ### 

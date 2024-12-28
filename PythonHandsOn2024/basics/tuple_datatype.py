@@ -42,5 +42,5 @@ a = 10, 20.5, 'Chitra'  # assigning more than one element with comma, separated 
 print(a, type(a))
 
 # tuple unpacking
-a, b, c = (10, 20, 30)
+a, b, c = (10, 20, 30,40)
 print(a, b, c)

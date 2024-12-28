@@ -45,7 +45,7 @@ print()
 print()
 print(world_cup_runner)
 
-# #  file = sys.stdout --> monitor
+# # #  file = sys.stdout --> monitor
 print("Hello World Learning print method in details", file = open('result.txt', mode='a'))
 print("India lost the 2023 ICC world cup",  file = open('result.txt', mode='a'))
 

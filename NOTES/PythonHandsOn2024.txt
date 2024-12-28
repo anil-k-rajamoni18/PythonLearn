@@ -1,0 +1,662 @@
+MOD-1
+--------------
+- Introductions to Computers
+- History of Computers
+- Classifications of Computers
+- Memory Architecture
+- Translators 
+
+### What is a Computer?
+
+- A computer is an electronic device that can process data and perform tasks based on instructions (called programs).
+- It can store, retrieve, and process information quickly and accurately.
+	
+- Main Components of a Computer:
+    Hardware: Physical parts like the monitor, keyboard, CPU, and storage devices.
+    Software: Programs and applications that run on the computer, like word processors or web browsers.
+
+- Functions of a Computer:
+    Input: Taking data from the user (e.g., typing on the keyboard).
+    Processing: Performing calculations or logic (e.g., running a program).
+    Output: Displaying or producing results (e.g., showing on the screen or printing a document).
+    Storage: Saving data for future use (e.g., hard drives or cloud storage).
+
+
+
+### 2. History of Computers
+=> Early Days:
+	Abacus: Ancient counting tool.
+	The Analytical Engine, invented by Charles Babbage in the 1830s, 
+	was the first mechanical computer designed to perform automatic calculations.
+
+=> First Generation (1940s-1950s):
+	Vacuum Tubes: Large, bulky, and generated a lot of heat.
+	Slow and unreliable.
+	Example: ENIAC (Electronic Numerical Integrator and Computer)
+	
+=> Second Generation (1950s-1960s):
+	Transistors: Replaced vacuum tubes.
+	Smaller, faster, and more reliable.
+	Example: IBM 1401
+	
+=> Third Generation (1960s-1970s):
+	Integrated Circuits (ICs): Packed many transistors onto a single chip.
+	Smaller, faster, and cheaper.
+	Example: IBM System/360
+	
+=> Fourth Generation (1970s-present):
+	Microprocessors: Entire CPU on a single chip.
+	Personal computers (PCs) became widespread.
+	Example: Intel 4004
+	
+=> Fifth Generation (Present & Future):
+	Artificial Intelligence (AI), machine learning, and quantum computing.
+	Focus on:
+		Natural Language Processing
+		Robotics
+		Big Data
+
+
+### 3. Classifications of Computers
+	By Size and Power:
+		Supercomputers: Extremely powerful computers used for complex calculations (e.g., weather forecasting, scientific research).
+		Mainframe Computers: Large computers used by organizations for bulk data processing (e.g., banks).
+		Minicomputers: Smaller than mainframes but used by smaller businesses or specific departments.
+		Microcomputers (Personal Computers): These are the most common types of computers (e.g., desktops, laptops).
+	By Purpose:
+		General Purpose Computers: Can perform a wide variety of tasks (e.g., PCs).
+		Special Purpose Computers: Designed to perform specific tasks (e.g., calculators, embedded systems).
+		
+		
+### 4. Memory Architecture
+- Memory in computers is used to store data temporarily or permanently. 
+- It is important for fast processing and accessing information.
+=> Types of Memory:
+	a) Primary Memory (RAM):
+		Volatile: Data lost when power is off.
+		Fast access.
+		Used for: Running programs and storing temporary data.
+		
+	b) Secondary Memory (Hard Drive, SSD):
+		Non-volatile: Data persists even when power is off.
+		Slower than RAM.
+		Used for: Storing programs and files permanently.
+		
+	c) Cache Memory:
+		Very fast memory that stores frequently accessed data.
+		Located between CPU and main memory.
+	
+
+### 5. Translators
+- Translators are programs that convert high-level programming languages into machine code (binary code) that a computer can understand
+- Types of Translators:
+    Compiler:
+        Translates the entire program at once and produces an executable file (e.g., C, Java).
+        It’s faster to run the compiled program but takes longer to translate.
+    Interpreter:
+        Translates the program line-by-line while it’s running (e.g., Python, JavaScript).
+        It’s slower because it translates code while the program runs.
+    Assembler:
+        Translates assembly language (a low-level language) into machine code.
+	
+	
+### Characteristics of a computer
+	Speed
+	Accuracy
+	Automation
+	Storage
+	Versatility
+	Diligence
+	Connectivity
+	Programmability
+- Clock Speed (Processor Speed): Measured in Hertz (Hz), typically in Gigahertz (GHz) (1 GHz = 1 billion cycles per second).
+- Response Time: The time it takes for a computer to respond to a user input, often measured in milliseconds (ms).
+- Data Transfer Rate: Measured in megabytes per second (MB/s) or gigabits per second (Gbps).
+
+
+## Applications of computers:
+	Word Processing (e.g., Microsoft Word, Google Docs)
+	Spreadsheets (e.g., Microsoft Excel, Google Sheets)
+	Internet Browsing (e.g., Google Chrome, Mozilla Firefox)
+	Email Communication (e.g., Gmail, Outlook)
+	Multimedia (e.g., Video and Audio Playback, Editing)
+	Data Storage and Management (e.g., Databases, Cloud Storage)
+	Gaming (e.g., Online Games, PC Games)
+	Educational Software (e.g., Learning Apps, Simulations)
+	Graphic Design and Animation (e.g., Adobe Photoshop, AutoCAD)
+	Accounting and Financial Management (e.g., QuickBooks, Tally)
+	Social Media (e.g., Facebook, Twitter)
+	Programming and Software Development (e.g., Python, Java IDEs)
+	Communication and Collaboration (e.g., Zoom, Microsoft Teams)
+	Online Shopping and E-commerce (e.g., Amazon, eBay)
+
+
+M1 
+-----------------
+M1: Flowchart & Algorithm
+M2: Operators / Conditional Statements 
+M3: Looping Statements & Regrex
+M4: List,Dict,Set,Tuple
+M5: Functions, Numpy, Recursion
+M6: Strings , File Handling
+
+
+ 
+What is Programming Lang?
+--------------------------------
+-> A programming language is a way for humans to communicate instructions to a computer. 
+It's like a set of rules and symbols that lets us tell the computer what to do, 
+whether that's 
+   - solving a math problem, 
+	- displaying a webpage,
+	- controlling a robot
+
+-> A program is set of instructions aim to do particular task. 
+
+-> A Language is set of grammatical & vocabulary rules to 
+form correct & efficient instructions.
+
+TYPES
+=============
+=> MACHINE LANGUAGE 
+	- programs written using binary codes (0s and 1s) that a computer's CPU directly understands.
+	- Low-level, hardware-specific.
+	- Very difficult for humans to read and write; mainly understandable by computers.
+	- Example: Specific binary instructions like 11010001 
+	that perform operations like arithmetic or data movement.
+=> ASSEMBLY LEVEL LANGUAGE
+	- Uses symbolic names and mnemonics to represent machine code instructions.
+	- Close to hardware, but more readable than machine language.
+	- Easier for humans to read and write compared to machine language, using symbols and names instead of binary.
+	- Example: Instructions like MOV AX, 1 (move the value 1 into register AX).
+	
+=> HIGH LEVEL LANGUAGE
+	- A programming language that is more abstract and closer to human languages, designed to be easier to write and understand.
+	- Much easier for humans to read and write; includes constructs like variables, loops, and functions.
+	- Example: Languages like Python, Java, and C++ that use syntax and constructs familiar to human logic.
+	
+
+### Flowchart & Algorithm
+
+### What is Flowchart?
+- A flowchart is a visual representation of a process or algorithm. 
+- It uses various types of boxes and arrows to represent the steps and decision points in a process. 
+- It is helpful in visualizing the sequence of actions, logic, and decision-making.
+
+Key Symbols in Flowcharts:
+    a)Oval (Terminator): Represents the start and end points of the process.
+    b)Rectangle (Process): Indicates a process, such as a calculation or operation.
+    c)Parallelogram (Input/Output): Represents inputs and outputs, like receiving data or displaying results.
+    d)Diamond (Decision): Represents a decision point where the flow branches depending on a condition.
+    e)Arrow (Flowline): Shows the direction of flow between the steps.
+
+=> Real-time Example:
+flowchart to determine whether a person is eligible for voting based on their age
+
+	(Start) 
+	   ↓
+	[Input Age]
+	   ↓
+	[Age >= 18?] — No → [Not Eligible to Vote] → (End)
+	   ↓
+	  Yes
+	   ↓
+	[Eligible to Vote]
+	   ↓
+	  (End)
+
+- Flowchart to Check If a Number is Even or Odd
+- Flowchart to Find the Largest of Three Numbers
+- Flowchart for Finding Factorial of a Number
+- Flowchart to Check If a Number is Prime
+- Flowchart to Sum All Numbers in a Given Range
+- Flowchart to Find the GCD (Greatest Common Divisor) of Two Numbers
+
+
+## Algorithm 
+- An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a task. 
+- It is language-independent and is often used to describe a process before translating it into a programming language.
+
+Characteristics of a Good Algorithm:
+    Finiteness: The algorithm must terminate after a finite number of steps.
+    Definiteness: Every step must be clearly and unambiguously defined.
+    Input: The algorithm must have zero or more inputs.
+    Output: The algorithm must produce at least one output.
+    Effectiveness: All operations must be basic enough to be carried out in a reasonable amount of time.
+
+Example:Algorithm for Making a Cup of Tea (Non-Computer Example)
+
+This is a real-world algorithm that is simple but involves multiple steps:
+
+Steps:
+
+    Boil water.
+    Place a tea bag in a cup.
+    Pour the boiling water into the cup.
+    Let it steep for 3-5 minutes.
+    Remove the tea bag.
+    Add milk, sugar, or lemon as desired.
+
+Example (Output): A cup of tea.
+
+
+=> Example-1:
+
+Let's write an algorithm for checking if a number is even or odd.
+	Step 1: Start
+	Step 2: Input the number 'n'
+	Step 3: If n % 2 == 0, print "Even"
+			 Else, print "Odd"
+	Step 4: End
+
+
+=> Example-2: Sorting Algorithm (Bubble Sort)
+
+Bubble Sort is an algorithm for arranging elements in a list in a specific order, such as ascending.
+
+Steps:
+    Compare the first element with the second element.
+    If the first element is greater than the second, swap them.
+    Move to the next pair of elements and repeat the process until the entire list is sorted.
+
+Example:
+
+    Input: [5, 3, 8, 4, 2]
+    After the first pass: [3, 5, 4, 2, 8]
+    After the second pass: [3, 4, 2, 5, 8]
+    After the third pass: [3, 2, 4, 5, 8]
+    After the fourth pass: [2, 3, 4, 5, 8]
+    Output: [2, 3, 4, 5, 8]
+
+
+=> Example-3: Search Algorithm (Linear Search)
+
+Linear Search is a simple algorithm for finding an element in a list.
+
+Steps:
+
+    Start at the beginning of the list.
+    Compare the target element with the current element in the list.
+    If they match, return the index of the element.
+    If they don’t match, move to the next element.
+    Repeat steps 2-4 until the element is found or the list ends.
+
+Example:
+
+    Input list: [10, 20, 30, 40, 50], Target: 30
+    Start at index 0, compare 10 with 30 (no match).
+    Move to index 1, compare 20 with 30 (no match).
+    Move to index 2, compare 30 with 30 (match).
+    Output: Index 2
+	
+	
+
+Why Algorithms Matter?
+
+	Algorithms are crucial because they help:
+
+		Solve problems efficiently (in terms of time and space).
+		Ensure consistency and correctness.
+		Provide a systematic approach to complex task
+		
+		
+
+###  Pseudo Code
+- Pseudo code is a simple way of writing programming logic in plain English (or another human language) with some structure. 
+- It helps bridge the gap between algorithms and actual code. 
+- It is not executed by a computer but gives a clear idea of how to implement the solution.
+
+Characteristics of Pseudo Code:
+    Written in simple language (close to human understanding).
+    Does not follow the syntax of any particular programming language.
+    Focuses on the logic rather than language-specific details.
+	
+Example-1: pseudo code for checking whether a number is prime.
+
+	BEGIN
+	  INPUT n
+	  IF n <= 1 THEN
+		PRINT "Not Prime"
+	  ELSE
+		FOR i = 2 TO sqrt(n) DO
+		  IF n MOD i == 0 THEN
+			PRINT "Not Prime"
+			STOP
+		  END IF
+		END FOR
+		PRINT "Prime"
+	  END IF
+	END
+	
+	or
+	
+	BEGIN
+		INPUT number
+		IF number <= 1 THEN
+			PRINT "Not Prime"
+			RETURN
+		END IF
+		FOR i = 2 TO number - 1 DO
+			IF number MOD i = 0 THEN
+				PRINT "Not Prime"
+				RETURN
+			END IF
+		END FOR
+		PRINT "Prime"
+	END
+
+
+Example-2: Finding the Maximum of Two Numbers
+
+	BEGIN
+		INPUT number1, number2
+		IF number1 > number2 THEN
+			PRINT "number1 is the maximum"
+		ELSE
+			PRINT "number2 is the maximum"
+		END IF
+	END
+
+Example-3: Factorial of a Number (Using Recursion)
+	FUNCTION factorial(n)
+		IF n = 0 THEN
+			RETURN 1
+		ELSE
+			RETURN n * factorial(n - 1)
+		END IF
+	END FUNCTION
+
+	BEGIN
+		INPUT number
+		result = factorial(number)
+		PRINT result
+	END
+	
+	
+Example-4: Summing Numbers in a List
+	BEGIN
+		INPUT list of numbers
+		SET sum = 0
+		FOR each number in the list DO
+			sum = sum + number
+		END FOR
+		PRINT sum
+	END
+
+
+Example-5: Binary Search Algorithm
+
+	BEGIN
+		INPUT sorted list, target
+		SET low = 0
+		SET high = length of list - 1
+		WHILE low <= high DO
+			SET mid = (low + high) / 2
+			IF list[mid] = target THEN
+				PRINT "Target found at index", mid
+				RETURN
+			ELSE IF list[mid] < target THEN
+				SET low = mid + 1
+			ELSE
+				SET high = mid - 1
+			END IF
+		END WHILE
+		PRINT "Target not found"
+	END
+
+
+Summary:
+    Flowchart: A diagram that represents a process or algorithm using symbols like ovals, rectangles, diamonds, and arrows.
+    Algorithm: A step-by-step procedure for solving a problem, written in a language-agnostic way.
+    Pseudo Code: A human-readable description of an algorithm, written in plain language with some structure to represent logical steps.
+	
+	
+###########################################################################################################################################################
+	
+### What is Python?
+
+- Python is a high-level programming language that is easy to read and write. 
+- It’s used to create software, websites, games, analyze data, automate tasks, and much more. 
+- Python is known for its simplicity, flexibility, and the powerful libraries it offers.
+- Key Features of Python:
+	a) Easy to Learn
+	b) Interpreted Language
+	c) Versatile
+	d) Free and Open Source
+	e) Cross-Platform
+	
+### History of Python
+- Python was created by Guido van Rossum in the late 1980s in the Netherlands. 
+- The language was designed to be easy to read and use, and it was inspired by another language called ABC
+- 1991: The first version of Python, Python 0.9.0, is released.
+- 2000: Python 2.0 is released.
+- 2008: Python 3.0 is released. 
+- 2020: Python 2 was officially retired, and now only Python 3 is actively developed and used.
+
+### How to Run Python Code
+- Python is an interpreted language, which means the code is read and executed by a program called the Python Interpreter.
+- Steps to Run Python Code:
+	a) Write Your Code: 
+		we write Python code in a text file using a special extension .py. 
+		For example, you might write a Python program in a file named hello.py.
+			print("Hello, world!")
+
+	b) Run Code:
+		Use the terminal or command prompt with the command python filename.py.
+		Alternatively, use an IDE or code editor with a “Run” button to execute the code.
+	
+
+### How Python Code Works:
+1. Code Compilation: 
+	When we run a Python program, the interpreter first converts your Python code into bytecode. 
+	Bytecode is an intermediate form that Python can understand.
+
+2. Execution: 
+	The bytecode is then run by the Python Virtual Machine (PVM). 
+	The PVM executes the code and produces the output
+
+	
+### How Python Handles Things Internally:
+- Interpreter: 
+	Python is an interpreted language, meaning it doesn't need a compiler to translate the code into machine language before execution. 
+	It runs line-by-line using an interpreter.
+- Dynamic Typing: 
+	Python automatically determines the type of a variable (whether it's an integer, string, etc.) during runtime. 
+	We don't need to specify types explicitly, like in some other languages (e.g., Java or C).
+	
+	x = 10      # x is an integer
+	x = "hello" # x is now a string
+
+- Garbage Collection: 
+	Python automatically manages memory for you, freeing up memory when objects are no longer needed, 
+	so we don't have to manually allocate or deallocate memory.
+
+
+### What are Variables?
+- a variable is a name given to a memory location where data can be stored and accessed. 
+- Variables are used to hold values, which can be changed or updated throughout the program.
+Key Points:
+    A variable is essentially a container for data.
+    The data stored in a variable can be of different types (like numbers, text, etc.).
+    A variable name is used to refer to the data stored in it.
+    Variables can store values that may change during the execution of the program.
+	
+Example: 
+	age = 25   # age is a variable storing the value 25
+	name = "John"  # name is a variable storing the text "John"
+
+=> Rules for Naming Variables:
+1. Variable Names Must Start with a Letter or Underscore
+	- The first character of the variable name must be a letter (a-z, A-Z) or an underscore (_).
+
+	my_variable = 10     # Valid
+	_my_var = 20         # Valid
+	1_variable = 30      # Invalid (starts with a number)
+
+2. Variable Names Can Contain Letters, Numbers, and Underscores
+	- After the first letter, a variable name can contain letters, numbers, and underscores.
+
+	my_var1 = 50         # Valid
+	var_2 = 100          # Valid
+	my-variable = 200    # Invalid (hyphen is not allowed)
+
+3. Variable Names Are Case-Sensitive
+	Age = 25
+	age = 30
+	print(Age)  # Prints 25
+	print(age)  # Prints 30
+
+4. Reserved Keywords Cannot Be Used as Variable Names
+	- Keywords are special words that Python uses for its internal functionality (like if, while, for, class, True, False, etc.). 
+	
+	if = 10     # Invalid (reserved keyword)
+	print = 20  # Invalid (reserved keyword)
+	
+5. Variable Names Should Be Descriptive
+	- It is good practice to use descriptive names for variables, so that the purpose of the variable is clear.
+	
+	# Descriptive and clear variable names
+	total_cost = 100
+	student_name = "John"
+
+	# Avoid single-letter variable names like x or y, unless it's a short loop or mathematical variable
+
+	
+
+## Data Types in Python
+----------------------------
+- data types specify what kind of data a variable can store. 
+- Python provides several built-in data types to handle different types of data, such as numbers, text, and more complex structures like lists, tuples, and dictionaries.
+
+1. Numeric Data Types:
+
+a) Integer (int):
+    Integers are whole numbers (both positive and negative) without any decimal points.
+		Examples: 5, -3, 100, 0
+	
+		age = 25     # Integer
+		year = 2024  # Integer
+
+b) Float (float):
+    Floats are numbers that have decimal points or are expressed in exponential form.
+		Examples: 3.14, -0.5, 100.0, 2.5e3 (which means 2.5 * 1000)
+		
+		temperature = 36.6   # Float
+		height = 5.75         # Float
+
+c) Complex (complex):
+    Complex numbers consist of a real and an imaginary part.
+    The real and imaginary parts are separated by a + or -, and the imaginary part is represented by a j.
+		Examples: 3+5j, 2-4j
+	
+		z = 3 + 5j   # Complex number
+
+2. Sequence Data Types:
+
+a) String (str)
+    Strings are sequences of characters (letters, numbers, symbols) enclosed in either single quotes (') or double quotes (").
+    Strings are immutable, meaning once a string is created, we cannot change it directly.
+		Examples: "Hello", 'Python', "1234", 'John Doe'
+	
+		name = "Alice"     # String
+		greeting = 'Hello' # String
+
+b) List (list)
+    A list is an ordered, mutable collection of elements. Lists can contain elements of different data types.
+    Lists are mutable, meaning we can modify, add, or remove elements after creation.
+		Examples: [1, 2, 3], ['apple', 'banana', 'cherry'], [10, 'Python', 3.14]
+
+		fruits = ["apple", "banana", "cherry"]  # List of strings
+		numbers = [1, 2, 3, 4, 5]               # List of integers
+
+c) Tuple (tuple)
+    A tuple is similar to a list, but it is immutable (i.e., it cannot be changed once created). 
+	Tuples are ordered collections.
+	Tuples are often used for data that should not change.
+		Examples: (1, 2, 3), ('apple', 'banana'), (10, 'Python', 3.14)
+		
+		coordinates = (10, 20)         # Tuple of integers
+		colors = ('red', 'green')      # Tuple of strings
+
+d) Range (range)
+    A range is an immutable sequence of numbers used primarily in loops. 
+	It generates numbers starting from a specified value to a given limit.
+		Examples: range(5), range(1, 10, 2) (starts at 1, goes up to 10, incrementing by 2)
+		
+		numbers = range(5)     # Range of numbers from 0 to 4
+
+
+3. Mapping Data Types:
+
+a) Dictionary (dict)
+    A dictionary is an unordered collection of key-value pairs. 
+	Each key is unique, and the values can be of any data type.
+	Dictionaries are mutable, meaning you can add, modify, or remove key-value pairs.
+		Examples: {'name': 'Alice', 'age': 25}, {'fruit': 'apple', 'quantity': 5}
+		
+		person = {'name': 'John', 'age': 30, 'city': 'New York'}  # Dictionary with key-value pairs
+
+4. Set Data Types
+a) Set (set)
+	A set is an unordered collection of unique elements. 
+	Sets do not allow duplicates and are used for mathematical operations like union, intersection, and difference.
+	Sets are mutable, but they do not support indexing or slicing.
+		Examples: {1, 2, 3}, {'apple', 'banana'}
+		
+		fruits = {'apple', 'banana', 'cherry'}  # Set with strings
+		numbers = {1, 2, 3, 4, 5}              # Set with integers
+
+
+b) Frozen Set (frozenset)
+    A frozenset is like a set, but it is immutable (cannot be changed once created).
+		Examples: frozenset([1, 2, 3]), frozenset({'apple', 'banana'})
+
+		frozen_fruits = frozenset(['apple', 'banana', 'cherry'])  # Immutable set
+
+
+5. Boolean Data Type
+a) Boolean (bool)
+    A boolean represents a truth value and can only be one of two values: True or False.
+	Boolean values are often used for decision-making (conditional statements like if and while).
+		Examples: True, False
+		
+		is_active = True    # Boolean value (True)
+		is_approved = False # Boolean value (False)
+
+	
+6. Binary Data Types
+
+a) Bytes (bytes)
+    A bytes object is an immutable sequence of bytes, often used to represent binary data.
+		Examples: b"hello", b"\x01\x02\x03"
+		
+		byte_data = b"hello"  # Immutable byte object
+
+b) Bytearray (bytearray)
+    A bytearray is a mutable sequence of bytes, useful for handling binary data.
+	
+		Examples: bytearray([1, 2, 3])
+	
+		byte_array = bytearray([65, 66, 67])  # Mutable byte sequence
+
+	
+## Type Conversion
+- Python allows you to convert between different data types. This is known as type casting.
+
+1. From Integer to Float:
+	x = 10
+	y = float(x)  # y is now 10.0 (float)
+
+2. From Float to Integer:
+	x = 10.7
+	y = int(x)    # y is now 10 (integer, decimal part is discarded)
+
+3. From Integer to String:
+	x = 10
+	y = str(x)    # y is now "10" (string)
+
+4. From String to Integer:
+	x = "100"
+	y = int(x)    # y is now 100 (integer)
+
+

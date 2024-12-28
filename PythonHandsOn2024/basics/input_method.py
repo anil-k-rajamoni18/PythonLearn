@@ -8,20 +8,20 @@
 
 #  dynamic declaration
 
-# name = input('enter the name: ')
-# rating = input('enter the rating: ')
-# duration = input('duration: ')
+name = input('enter the name: ')
+rating = input('enter the rating: ')
+duration = input('duration: ')
 
-# print(name, type(name))
-# print(rating, type(rating))
-# print(duration, type(duration))
+print(name, type(name))
+print(rating, type(rating))
+print(duration, type(duration))
 
 # addition of two numbers
 
-# num1 = input("num1 : ")
-# num2 = input("num2 : ")
-# print(type(num1), type(num2))
-# print("addition", num1+num2)
+num1 = input("num1 : ")
+num2 = input("num2 : ")
+print(type(num1), type(num2))
+print("addition", num1+num2)
 
 # TYPE CASTING : converting one datatype to another data type
 # methods
@@ -33,12 +33,12 @@
     - complex() 
 '''
 
-# n1 = int(input('n1 = '))
-# n2 = int(input('n2 = '))
-#
-# print(n1, n2, type(n1), type(n2))
-#
-# print("addition of n1 n2 is ", n1+n2)
+n1 = int(input('n1 = '))
+n2 = int(input('n2 = '))
+
+print(n1, n2, type(n1), type(n2))
+
+print("addition of n1 n2 is ", n1+n2)
 
 studentId = int(input('Enter id: '))
 studentName = input('Enter Name: ')

@@ -176,3 +176,57 @@ Data Extraction from Logs:
     Extract and print the date and time.
     Extract and print the log level (e.g., ERROR).
     Extract and print the log message (e.g., Invalid user input).
+	
+DATA TYPE QUESTIONS
+====================================
+Identify Data Types:
+
+    What is the data type of 42?
+    What is the data type of 3.14?
+    What is the data type of "Hello, World!"?
+    What is the data type of True?
+	
+	
+Type Casting:
+    Convert the integer 42 to a float and store in a variable to print.
+    Convert the float 3.14 to an integer and store in a variable to print.
+    Convert the string "123" to an integer and store in a variable to print.
+    Convert the integer 42 to a string and store in a variable to print.
+
+Type Checking:
+    How can you check if a variable x is an integer?
+    How can you check if a variable y is a float?
+	
+User Input:
+
+    Write a Python program that takes an integer input from the user and prints its float equivalent.
+    Write a Python program that takes a float input from the user and prints its integer equivalent.
+	
+String Manipulation:
+    Given a string representing a number, like "456", write a program to convert it to an integer and then add 10 to it.
+    Given a string "3.14159", write a program to convert it to a float and then multiply it by 2.
+
+List Conversion:
+    Given a list of strings ["1", "2", "3", "4"], write a program to convert each element to an integer.
+    Given a list of integers [1, 2, 3, 4], write a program to convert each element to a string.
+	
+Type Casting in Expressions:
+    Write a program that calculates the sum of an integer and a float, for example, 5 and 3.2. What is the resulting data type?
+    Write a program that concatenates a string and an integer, for example, "The number is " and 42.
+	
+Temperature Conversion:
+
+    Write a program that takes a temperature in Celsius (float) from the user, converts it to Fahrenheit 
+	(using the formula F=C×9/5+32), and prints the result as a float.
+	
+Age Calculation:
+    Write a program that asks the user for their birth year (as a string), converts it to an integer, and calculates their age based on the current year.
+	
+Simple Interest Calculation:
+    Write a program that takes principal (as an integer), rate of interest (as a float), and time (as an integer) from the user, calculates the simple interest (using the formula SI=(P×R×T)/100​), and prints the result.
+	
+List Average:
+    Given a list of numbers as strings ["1.1", "2.2", "3.3", "4.4"], write a program to convert them to floats and calculate their average.
+
+Type Conversion Error Handling:
+    Write a program that asks the user to input a number. If the input cannot be converted to an integer, print an error message and ask for input again until a valid number is entered.
